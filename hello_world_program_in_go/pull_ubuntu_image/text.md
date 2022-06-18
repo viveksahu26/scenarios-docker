@@ -1,29 +1,47 @@
 ## Pull Ubuntu Image with latest version.
 
-`docker` knows how to manage containers as well images. User only need to instruct docker through different commands.
+`docker` knows how to manage containers as well images. User only need to
+instruct docker through different commands.
 
-To pull images, instruct docker with below command.
+#### To pull images, instruct docker with below command.
+```
+docker pull ubuntu:latest
+```
 
+#### What above command says in human language: 
+docker please download or install Ubuntu image with latest version.
+
+#### What's happening behind the scene after running above command:
+
+1) docker checks from the list of available images(using "docker images" command) that whether the Ubuntu:latest image is present locally or not. 
+2) If present locally then fine. 
+3) Else, docker will download image from [DockerHub](https://hub.docker.com/). DockerHub is public registory for Images as GitHub is public repository for codes.
+
+#### Note: 
+Like git is a cli tool to interact with GitHub. 
+Similarly, docker is also a cli tool to interact with DockerHub.
+
+#### Relate with git
+If you are familiar  with git, then you must know to clone or download repo from github. 
+To clone git repo from GitHub, command is: 
+    
+    git clone repository_name 
+Similarly, to pull image from DockerHub command is:
+    
     docker pull ubuntu:latest
 
-What above command says in human language: 
-
-    docker please download or install ubuntu image with latest version.
-
-What's happening behind the scene after running above command:
-
 ```
-First docker checks from the list of available images(using `docker images` command) that whether the image user want 
-is present locally or  not. If image is present locally then it will not download or install. If not, then docker will 
-go to public registory, [DockerHub](https://hub.docker.com/) and download image from there. DockerHub is registory for images. 
-It is similar to github registory. If you are familiar  with git, then you must know to download the repo from github. 
-For the same run command,  `git clone repository_name`. Similarly, in the case   of DockerHub, to download image fom it.  
-Replace,
-              git ---> docker
-              clone ---> pull
-              repository_name ---> image name
+git   ---> docker
+
+clone ---> pull
+
+repository_name ---> image name
 ```
 
 To see list of all available images instruct docker with below command.
 
     docker images
+
+## Conclusion
+
+    docker pull ubuntu:latest
