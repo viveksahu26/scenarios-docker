@@ -23,7 +23,13 @@ After knowing the answer you will be like "WOW :)".
 
 Understand this:
 
-     Let’s understand with real life examples. As you all know that you can use your phone to make phone calls or use the internet as long as you have talktime balance or data balance respectively. As it ends, you can’t make phone calls or use the Internet. Similarly, the same logic applies on Containers. As long as some program is running inside your container, the container will continue to run. If programs stops running, then your container will also stop. That's why your container stops automatically here. So, to make your container keep running you need to run some program i.e. a terminal or bash shell program  using `-t` option. And along with `-t` option you need to include `-i` option also. Why so? To make your terminal continuously run. Have you ever notice that your terminal cursor continously blinks. It means it’s waiting for your input. 
+     Let’s understand with real life examples. As you all know that you can use your phone to make phone calls or use the 
+     internet as long as you have talktime balance or data balance respectively. As it ends, you can’t make phone calls or 
+     use the Internet. Similarly, the same logic applies on Containers. As long as some program is running inside your container, 
+     the container will continue to run. If programs stops running, then your container will also stop. That's why your container 
+     stops automatically here. So, to make your container keep running you need to run some program i.e. a terminal or bash shell 
+     program  using `-t` option. And along with `-t` option you need to include `-i` option also. Why so? To make your terminal 
+     continuously run. Have you ever notice that your terminal cursor continously blinks. It means it’s waiting for your input. 
 
 `NOTE:` Terminal is a black color interface which takes your input and prints the corresponding output. Terminal is also a program. To know more about terminal click here.  ---> Why docker image is less in size than real OS image.
 
@@ -38,12 +44,16 @@ Now, let's get back to the topic and run container.
     docker run -t -i --name=tutorial ubuntu:latest
 What above command says in human language:
 
-    docker run container(new OS) using image Ubuntu, with name tutorial and at the same time start terminal program in input mode or interactive mode. As a result your container keeps running.
+    docker run container(new OS) using image Ubuntu, with name tutorial and at the same time start terminal program in input 
+    mode or interactive mode. As a result your container keeps running.
 
 What's happening behind the scene after running above command:
 
-    At the time of running command you was in your host Operating System. but now you are inside Container. Intechnical terms, now you are inside different namespace. You will get to know about it when you learn how containers are created internally. See this difference. 
+    At the time of running command you was in your host Operating System. but now you are inside Container. In technical terms, 
+    now you are inside different namespace. You will get to know about it when you learn how containers are created internally. 
+    See this difference. 
     
-    Whatever files present inside your host operating system, you won't see inside container. Or whatever you will create file inside container you won't se in the host operating system.
+    To confirm: Whatever files present inside your host operating system, you won't see inside container. Or whatever you will 
+    create file inside container you won't se in the host operating system.
 
 
