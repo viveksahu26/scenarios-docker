@@ -1,6 +1,6 @@
 {
     "title": "Docker | Container basics for Beginners and students",
-    "description": "Let's containers with Examples | Pull image | Create Image | Create Containers from image | Run hello World program inside Containers",
+    "description": "Let's learn Containers with Examples | Pull images | Create Image manually | Create Containers from Image | Run hello World program inside Containers",
     "details": {
       "intro": {
         "text": "intro.md"
