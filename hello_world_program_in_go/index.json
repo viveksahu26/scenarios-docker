@@ -12,7 +12,7 @@
         },
         {
           "title": "Create Container from Ubuntu Image",
-          "text": "pull_ubuntu_image/text.md"
+          "text": "run_container_from_ubuntu_image/text.md"
         },
         {
           "title": "Install golang and dependencies inside Containers",
