@@ -17,6 +17,14 @@
         {
           "title": "Install golang and dependencies inside Containers",
           "text": "install_dependencies/text.md"
+        },
+        {
+          "title": "Create hello world program inside Containers",
+          "text": "create_hello_world_program/text.md"
+        },
+        {
+          "title": "Create image manually from stopped Containers",
+          "text": "create_image_manually/text.md"
         }
       ],
       "finish": {
