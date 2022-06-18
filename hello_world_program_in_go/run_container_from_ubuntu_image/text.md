@@ -9,6 +9,7 @@
 docker run new container or new light weight OS on top of host OS using Image Ubuntu:latest.
 
 Do you know ?
+
 The actual image used in your host OS is of size approx 8-16 GiB, whereas the image used by Containers are of sizes 10 MiB to 1000 MiB. 
 
 Now check whether container is running or not?
