@@ -1,0 +1,29 @@
+{
+    "title": "Docker | Container basics",
+    "description": "Let's learn some basic concepts about Container.",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Pull Ubuntu Image from DockerHub",
+          "text": "pull_ubuntu_image/text.md"
+        },
+        {
+          "title": "Create Container from Ubuntu Image",
+          "text": "pull_ubuntu_image/text.md"
+        },
+        {
+          "title": "Install golang and dependencies inside Containers",
+          "text": "install_dependencies/text.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
