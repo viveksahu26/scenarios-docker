@@ -1,11 +1,10 @@
-Learn Container through examples:
-1) How to create Hello World program inside Container in golang.
+## Containers
+Containers are light weight Operating System. 
 
-What you will do?
-1) Pull fresh Ubuntu Image with latest version from DockerHub.
-2) Create Container using an Ubuntu Image. 
-3) Install some commads such as vim, wget, etc.
-4) Install go software.
-5) Set path for go.
-6) Create a simple Hello World program and execute it.
-7) Create Image from stopped Container.
+What we will Cover?
+1) Pull Images from DockerHub.
+2) Create Container from Image.
+3) Install golang program inside Container.
+4) Creating Hello World program inside Container.
+5) Creating Image manually from Stopped Container.
+6) Pushing Image to the DockerHub.
