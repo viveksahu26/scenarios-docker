@@ -52,14 +52,14 @@ Hey, docker please run container(new light-weight OS) on top of host OS using Ub
 #### What's happening behind the scene after running above command:
 
 At the time of running command you was in your host Operating System. But now you are inside Container. In technical terms, now you are inside different namespaces.
-Inially you was in host namespace or inside host boundary and now you are inside container namespace or inside container boundary. We will discuss later about the namespaces.
+Initially you was in host namespace or inside host boundary and now you are inside container namespace or inside container boundary. We will discuss later about the namespaces.
 
 #### How to get confirmation that you are inside Container.
 1) Whatever files(that you created) present inside your host operating system, you won't see inside container and vice-versa.
 2) See to the left of terminal, from 
 
     Switched from  "ubuntu $" to "root@ba94a237248f:/#"
-    ubuntu $ ---> you are in host OS.
+    ubuntu $       ---> you are in host OS.
     root@ba94a237248f:/#  ---> You are inside container.
 
 ### Conclusion
